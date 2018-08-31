@@ -13,3 +13,6 @@ If you have installed testflo (`pip install testflo`), you can run the tests wit
 `testflo`
 
 Use this working example to build your own repository!
+
+Find a more detailed explanation of how to get this all working at:
+http://openmdao.org/twodocs/other/repo_guide/index.html
