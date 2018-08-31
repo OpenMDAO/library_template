@@ -55,7 +55,7 @@ numpydoc_show_class_members = False
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
-# The suffix(es) of source filenames.
+# The suffix(es) of package filenames.
 # You can specify multiple suffix as a list of string:
 # source_suffix = ['.rst', '.md']
 source_suffix = '.rst'
@@ -86,15 +86,15 @@ release = your_project.__version__ + ' Beta'
 language = None
 
 
-# exclude_patterns is a list of patterns, relative to source directory, that match files and
-# directories to ignore when looking for source files.
+# exclude_patterns is a list of patterns, relative to package directory, that match files and
+# directories to ignore when looking for package files.
 exclude_patterns = ['_build', '_srcdocs/dev']
 absp = os.path.join('.', '_srcdocs')
 sys.path.insert(0, os.path.abspath(absp))
 
 #packages, in the order you want to document them
 packages = [
-    'source',
+    'package',
 ]
 
 if os.path.isfile("make_sourcedocs"):
@@ -139,7 +139,7 @@ html_sidebars = {
 # -- Options for manual page output ---------------------------------------
 
 # One entry per manual page. List of tuples
-# (source start file, name, description, authors, manual section).
+# (package start file, name, description, authors, manual section).
 man_pages = [
     (master_doc, 'your_project', u'your_project Documentation',
      [author], 1)

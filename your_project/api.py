@@ -1,4 +1,4 @@
 """Key your_project classes can be imported from here."""
 
-# source
-from your_project.source.example import Example
+# package
+from your_project.package.example import Example
