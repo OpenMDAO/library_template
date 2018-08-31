@@ -72,7 +72,7 @@ install:
 
 script:
 - testflo -n 1 your_project --pre_announce --coverage --coverpkg your_project;
-- travis-sphinx build --package=your_project/docs;
+- travis-sphinx build --source=your_project/docs;
 
 after_success:
 - if [ "$MASTER_BUILD" ] && [ "$UPLOAD_DOCS" ]; then
