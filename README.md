@@ -16,7 +16,8 @@ we have in our style guide which can be found in our docs repo
 [here](https://github.com/OpenMDAO/OpenMDAO_Book/tree/main/openmdao_book/other_useful_docs/developer_docs/doc_style_guide.ipynb). 
 These tests will run with run with `testflo`. Reference 
 [our repo workflow](https://github.com/OpenMDAO/OpenMDAO_Book/tree/main/.github/workflows) if you 
-would like to set up GitHub Actions.
+would like to set up GitHub Actions. Take a look at our custom [Jupyter Book script](https://github.com/OpenMDAO/OpenMDAO_Book/blob/main/build_jupyter_book.py) which moves `.png` 
+and `.html` files into the `_build` folder. You will need to modify it to work in your project.
 
 Use this working example to build your own repository!
 
